@@ -1,0 +1,2 @@
+char* inputFromUser();
+void getLocation();
