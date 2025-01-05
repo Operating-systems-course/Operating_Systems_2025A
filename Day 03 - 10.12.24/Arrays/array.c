@@ -5,12 +5,12 @@
 int main(int argc, char const *argv[])
 {
     int size;
-    // scanf("%d", &size);
+    scanf("%d", &size);
 
     int arr[SIZE];
 
     arr[0] = 6;
-    arr[1] = 2;
+    arr[100] = 2;
 
     int arr2[] = {1, 2, 3, 4, 5};
 
@@ -52,6 +52,10 @@ int main(int argc, char const *argv[])
 
     puts(str);
     puts(str3);
-
+    int index = 0;
+    while (str3[index])
+    {
+        printf("%d",str3[index++]);
+    }
     return 0;
 }

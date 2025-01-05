@@ -1,3 +1,5 @@
+#include "function.h"
+
 int factorial(int number)
 {
 

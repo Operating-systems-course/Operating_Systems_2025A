@@ -45,6 +45,7 @@ int main(int argc, char const *argv[])
     printf("strlen = %ld\n", strlen(str));
     printf("size = %d\n", size(str));
 
+    
 
     puts(&str[6]);
     printf("strlen = %ld\n", strlen(str+6));
