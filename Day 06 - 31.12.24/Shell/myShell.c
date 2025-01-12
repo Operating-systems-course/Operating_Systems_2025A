@@ -10,6 +10,7 @@ int main(int argc, char const *argv[])
     while(1){
 
         char* input = inputFromUser();
+        
         puts(input);
 
 
